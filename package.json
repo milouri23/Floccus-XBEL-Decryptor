@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "js-base64": "^3.7.7"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.10",
+    "typescript": "^5.5.3"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/main.js"
+  }
+}
